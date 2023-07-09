@@ -1,0 +1,104 @@
+body {
+    background-image: url("../images/marte8.jpg");
+}
+
+/* Estableciendo diseños para los label de los select */
+.combito label {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Estableciendo color para el combo select */
+.combito select {
+    background-color: white;
+    color: black;
+}
+
+/* Definiendo estilos para la creación del encabezado de la sala */
+#encabezado {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+
+/* Definiendo estilos para la creación del encabezado de la sala con la etiqueta 'h2' */
+#encabezado h2 {
+    margin-bottom: 10px;
+}
+
+/* Definiendo estilos para la creación del código de la sala */
+.codigo-sala {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.espacios-negros {
+    background-color: black;
+    height: 20px;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.btn-iniciar-juego {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Estableciendo separación del navbar con el contenido inferior */
+.navbar {
+    margin-bottom: 50px;
+}
+
+/* Estableciendo color del texto de logo de NavBar */
+.navbar-brand{ 
+    color: white;
+}
+
+/* Cambiando tamaño de logo preguntados */
+.custom-image12 {
+    max-width: 40px;
+    height: auto;
+}
+
+/* ... tu código CSS existente ... */
+
+.responsive-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+}
+
+@media (max-width: 768px) {
+    .responsive-container {
+        padding: 10px;
+    }
+}
+
+.espacios-negros {
+    background-color: black;
+    height: 20px;
+    margin-bottom: 20px;
+    margin: 5px;
+    max-width: 60px; 
+    margin-left: 15px;
+    
+    /* Ajusta el ancho máximo según tus necesidades */
+}
+
+/* ... tu código CSS existente ... */
